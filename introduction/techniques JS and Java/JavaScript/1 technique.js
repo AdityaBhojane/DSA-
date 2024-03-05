@@ -1,6 +1,6 @@
 // to sum problem 
-// in given array find a pain which sum up to the target value
-
+// in given array find a pair which sum up to the target value
+// Brut force sol -
 function toSum(arr,target){
     let n = arr.length 
     // outer loop 
