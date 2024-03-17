@@ -44,7 +44,7 @@ function squareSort(arr){
 //     let n = arr.length
 //     let i = 0
 //     let j = n-1
-//     while(i<=j){
+//     while(i<j){
 //         if(arr[i]**2 > arr[j]**2){
 //             let temp = arr[j]
 //             arr[j] = arr[i]**2
