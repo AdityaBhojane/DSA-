@@ -1,4 +1,5 @@
 // 3 SUM
+
 // finding triplets which sums up to the target 
 // lets solve using TwoPointer approach 
 
@@ -35,8 +36,10 @@ function threeSum(nums) {
                 b--;
             } else if (sum < -nums[c]) {
                 a++;
+                c++
             } else {
                 b--;
+                C++
             }
         }
     }

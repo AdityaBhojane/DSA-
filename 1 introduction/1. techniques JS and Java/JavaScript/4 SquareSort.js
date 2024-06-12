@@ -1,3 +1,5 @@
+// square and sort
+
 // brut force approach
 
 // function squareSort(arr){

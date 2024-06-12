@@ -1,3 +1,6 @@
+// sum of pair to the target
+
+
 function SumsUP(arr,target){
     let n = arr.length
     let i = 0
