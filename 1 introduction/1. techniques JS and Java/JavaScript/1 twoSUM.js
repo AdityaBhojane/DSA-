@@ -17,6 +17,10 @@ function toSum(arr,target){
 toSum([2,3,7,11,15],9)
 //output - index 0 and 2
 
+
+
+
+// leetcode
 var twoSum = function(nums, target) {
     for(let i = 0; i<nums.length -2; i++){
         for(let j = i + 1; j<nums.length - 1; j++){
