@@ -14,14 +14,12 @@ function threeSum(nums) {
         if (c > 0 && nums[c] === nums[c - 1]) {
             continue;
         }
-
         let a = c + 1;
         let b = nums.length - 1;
-
         while (a < b) {
             const sum = nums[a] + nums[b];
-
-            if (sum === -nums[c]) {
+            const target =  -nums[c];
+            if (sum === target) {
                 result.push([nums[c], nums[a], nums[b]]);
 
                 // Skip duplicate elements
@@ -29,17 +27,16 @@ function threeSum(nums) {
                     a++;
                 }
                 while (a < b && nums[b] === nums[b - 1]) {
-                    b--;
+                    b--;    
                 }
-
                 a++;
                 b--;
             } else if (sum < -nums[c]) {
                 a++;
-                c++
+                // we can add c++ here to solve this using three pointers
             } else {
                 b--;
-                C++
+                // we can add c++ here to solve this using three pointers
             }
         }
     }
